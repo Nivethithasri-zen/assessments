@@ -1,0 +1,73 @@
+.table-container{
+   
+margin-top: 100px;
+
+margin-left: 400px;
+
+}
+.full-table{
+  border-spacing: 30px;
+
+}
+
+th{
+   font-style: arial;
+   font-size: 9px;
+   text-align: left;
+}  
+
+td,th {
+   
+  padding: 8px;
+ 
+}
+.bold{
+    font-weight: bold;
+}
+
+.status-center{
+    text-align: center;
+}
+
+.right-align{
+    text-align: right;
+}
+
+.draft-button {
+    padding: 8px 16px;
+    background-color: gainsboro;
+    color:black;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  .paid-button {
+    padding: 8px 16px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+
+  .late-button {
+    padding: 8px 16px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+
+  .draft-button:hover {
+    background-color: white
+  }
+  
+  .button:hover {
+    background-color:blue;
+  }
+  tr.row-hover:hover td {
+    background-color: lightgray;
+  }
+  
